@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/buidaoanhvan/app-food/issues"
   },
-  "homepage": "https://github.com/buidaoanhvan/app-food#readme"
+  "homepage": "https://github.com/buidaoanhvan/app-food#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
