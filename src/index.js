@@ -8,6 +8,6 @@ app.use(express.json())
 
 app.use('/api', rootRouter)
 
-app.listen(process.env.PORT, () => {
-    console.log(`vnfood app listening on port ${process.env.PORT}`)
+app.listen(process.env.port_app, () => {
+    console.log(`vnfood app listening on port ${process.env.port_app}`)
 })
